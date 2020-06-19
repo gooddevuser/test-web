@@ -1,0 +1,586 @@
+@CHARSET "utf-8";
+
+body {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 14px;
+}
+
+body {
+	background: #ffffff none repeat scroll 0;
+	color: #333333;
+	margin: 0;
+	padding: 0;	
+}
+   
+input:focus {
+  outline: none;
+  transition: 0.5s;
+  background-color:antiquewhite;
+}
+
+#pageContainer {
+	background: #ffffff none repeat scroll 0;
+	margin: 0 auto;
+	max-width: 100%;
+	min-width: 600px;
+	padding:0 0;
+	text-align: left;
+}
+#headercanvas {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #23333b;
+}
+.customerdetailtd {
+	text-align:left;
+	width: 27%;
+}
+table#customerdetailtable>tbody>tr{
+	height:82.5px;
+}
+
+#header {
+    color: #ffffff;
+    width: 444px;
+    height: 83px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+#header a {	
+	color: #3e3629;
+	text-decoration: none;
+	line-height: 60px;
+}
+
+#header .title {
+	font-family: 'Nanum Myeongjo', serif;
+	letter-spacing:-1px;
+	text-align:center;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 370px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.links {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    height: 30px;
+}
+
+.links a {
+	float: right;   
+	color: #3e3629;
+	text-decoration: none;
+	line-height: 30px;
+	margin-right: 30px;
+	letter-spacing: -1px;
+    }
+
+#menu {
+	width: 460px;
+    margin: 0 auto;
+}
+
+#menu ul {
+	display: inline;
+	margin-left: 0;
+	padding-left: 0;	
+}
+
+#menu ul li {
+	display: inline;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#menu ul li a {
+	color: #3e3629;
+    text-decoration: none;
+    padding-left: 22px;
+    padding-right: 15px;
+    border-left: 1px solid gray;
+}
+
+#menu ul li:nth-child(1)> a {
+    border-left: 0px;
+}
+#menu ul li a:hover, #menu ul li a:focus {
+	font-weight: 600;
+}
+
+div#menu div ul {
+	margin:0;
+}
+
+
+#homecontentcanvas {
+    height: 500px;
+    margin-top: 66px;
+    background-color: antiquewhite;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+#homegamecanvas {
+    height: 135px;
+    margin-top: 70px;
+}
+
+#visitorscanvas {
+    height: 135px;
+    margin-top: 70px;
+}
+
+#customercanvas {
+    height: 500px;
+    margin-top: 66px;
+    background-color: antiquewhite;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+
+#visitor {
+    width: 175px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#homecontentcanvas>div#contentborder {
+	background-color:white;
+	width: 75%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#homegamecanvas>div#contentborder {
+	background-color:white;
+	width: 800px;
+    height: 125px;
+    border: 2px solid #23333b;
+    margin: 0 auto;
+}
+
+#visitorscanvas>div#contentborder {
+	background-color:white;
+	width: 800px;
+    height: 125px;
+    border: 2px solid #23333b;
+    margin: 0 auto;
+}
+
+#customercanvas>div#contentborder {
+	background-color:white;
+	width: 75%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#margin {
+	width: 300px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#today {
+	width: 365px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#today>p {	
+    font-size: 20px;
+    font-weight: normal;
+	float:left;
+    display:inline;
+    text-align:center;
+}
+
+#margin>p {	
+    font-size: 20px;
+    font-weight: normal;
+	float:left;
+    display:inline;
+    width: 100%;
+    text-align: center;
+}
+
+#today>p[lang=en] {
+font-family: 'Lato';
+}
+#today>p[lang=ko] {
+font-family: 'Nanum Myeongjo',;
+}
+#lotto {
+	width: 175px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#lotto>p {
+	font-family: 'Nanum Myeongjo',;
+	font-size: 20px;
+    font-weight: normal;
+	float:left;
+    display:inline;
+}
+#lotto-table{
+	width: 595px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#lotto-table>tbody>tr>td{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: pink;
+    text-align: center;
+}
+#lotto-table>tbody>tr>td:nth-child(7){
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: crimson;
+    text-align: center;
+    color:white;
+}
+
+#lotto-table>tbody>tr{
+	padding:20px;
+}
+
+#rockpaperscissors {
+	width: 175px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#rockpaperscissors>p {
+	font-family: 'Nanum Myeongjo',;
+	font-size: 20px;
+    font-weight: normal;
+	float:left;
+    display:inline;
+}
+
+#visitors {
+	width: 175px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#visitors>p {
+	font-family: 'Nanum Myeongjo',;
+	font-size: 20px;
+    font-weight: normal;
+	float:left;
+    display:inline;
+}
+
+#rpsform,#rpsresult{
+	width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+}
+#rpsform{
+    margin-top: 25px;
+}
+
+#rpsselect,#rpsform>input{
+	width: 100px;
+    height: 40px;
+    float: left;
+}
+
+table,  tbody, tr,th,td { marign:0; padding:0; border:0;
+}
+
+table#customer_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customerdetailtable {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.customerHeader,.customerdetailHeader,.customerupdateHeader,.customeraccountHeader {
+    font-weight: 900;
+    width: 18%;
+    font-size: 19px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.customerHeader{	
+	height: 41px;
+}
+.customeraccountHeader{	
+	height: 58.4px;
+}
+.customerdetailHeader {
+    height: 210px;
+}
+
+.customerupdateHeader {
+	height: 104px;
+}
+
+.customerName,.customerStreet,.customerCity{
+	font-weight:0;
+	height: 36px;
+}
+.memberId ,.email,.regDate,.userType,.active{
+	font-weight:0;
+	height: 36px;
+}
+.customerName{
+font-weight: 900;
+    color: cadetblue;
+    text-decoration: none;
+}
+td.customerName a:hover, td.customerName a:link , td.customerName a:visited , td.customerName a:active {
+font-weight: 900;
+    color: cadetblue;
+    text-decoration: none;
+}
+    
+table#customeradd_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customeradd_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#customeradd_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#customeradd_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 136px;
+}
+table#customeradd_table>tbody>tr:nth-child(3)>td>input {
+    border: 0px;
+}
+
+
+table#customeraccountadd_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customeraccountadd_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#customeraccountadd_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#customeraccountadd_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 56px;
+}
+table#customeraccountadd_table>tbody>tr:nth-child(7)>td>input {
+    border: 0px;
+}
+
+table#customerlogin_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customerlogin_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#customerlogin_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#customerlogin_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 207px;
+}
+
+table#customerlogin_table>tbody>tr:nth-child(2)>td>input {
+    border: 0px;
+}
+
+table#customerregister_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customerregister_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#customerregister_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#customerregister_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 101px;
+}
+
+table#customerregister_table>tbody>tr:nth-child(4)>td>input {
+    border: 0px;
+}
+
+
+table#customerupdate_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#customerupdate_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#customerupdate_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#customerupdate_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 56px;
+}
+table#customerupdate_table>tbody>tr:nth-child(4)>td>input {
+    border: 0px;
+}
+
+table#memberupdate_table {
+	border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+table#memberupdate_table>tbody>tr>th {
+    width: 18%;
+    text-align: center;
+}
+
+table#memberupdate_table>tbody>tr>td {
+    width: 80%;
+}
+
+table#memberupdate_table>tbody>tr>td>input {
+	width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    height: 56px;
+}
+table#memberupdate_table>tbody>tr:nth-child(7)>td>input {
+    border: 0px;
+}
+
+
+div.customeradd_buttons>input {
+	width: 50%;
+    float: left;
+    height: 76px;
+    color:white;
+    border:0;
+}
+div.customeradd_buttons>input:nth-child(1) {
+	background-color:black;
+}
+div.customeradd_buttons>input:nth-child(2) {
+	background-color:cornflowerblue;
+}
+
+div.customeraccountadd_buttons>input {
+	width: 50%;
+    float: left;
+    height: 76px;
+    color:white;
+    border:0;
+}
+
+div.customeraccountadd_buttons>input:nth-child(1) {
+	background-color:black;
+}
+div.customeraccountadd_buttons>input:nth-child(2) {
+	background-color:cornflowerblue;
+}
+
+div.customer_table_buttons>input {
+	width: 100%;
+    float: left;
+    height: 76px;
+    color:white;
+    border:0;
+    background-color: cornflowerblue;
+}
+
+div.customerdetailtable_buttons>input {
+	width: 33.3%;
+    float: left;
+    height: 76px;
+    color:white;
+    border:0;
+    background-color: cornflowerblue;
+}
+div.customerdetailtable_buttons>input:nth-child(1) {
+    background-color: black;
+}
+div.customerdetailtable_buttons>input:nth-child(2) {
+    background-color: white;
+    color:black;
+    border:1px solid gray;
+}
+input#customerAdd,input#accountAdd,input#customeraccountAdd {
+	width: 100%;
+	background-color:black;
+}
+
+@-webkit-keyframes example {
+  0%   {background-color: antiquewhite;}
+  25%  {background-color: darkorange;}
+  50%  {background-color: cadetblue;}
+  100% {background-color: antiquewhite;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: antiquewhite;}
+  25%  {background-color: darkorange;}
+  50%  {background-color: cadetblue;}
+  100% {background-color: antiquewhite;}
+}
